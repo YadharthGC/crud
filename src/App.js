@@ -2,7 +2,6 @@ import "./App.css";
 import Leftbar from "./leftbar";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Dashboard from "./dashboard";
-import Product from "./product";
 import User from "./user";
 import Createuser from "./createuser";
 import Edituser from "./edituser";
@@ -17,7 +16,6 @@ function App() {
           <div className="container-fluid">
             <Switch>
               <UserProvider>
-                <Route path="/Product" component={Product} exact={true}></Route>
                 <Route path="/User" component={User} exact={true}></Route>
                 <Route
                   path="/Dashboard"

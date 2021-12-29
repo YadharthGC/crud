@@ -37,20 +37,6 @@ function Leftbar() {
           </a>
         </Link>
       </li>
-      <li class="nav-item">
-        <Link to="/Product">
-          <a class="nav-link collapsed">
-            <i class="fas fa-fw fa-wrench"></i>
-            <span>Products</span>
-          </a>
-        </Link>
-        <div
-          id="collapseUtilities"
-          class="collapse"
-          aria-labelledby="headingUtilities"
-          data-parent="#accordionSidebar"
-        ></div>
-      </li>
     </ul>
   );
 }
